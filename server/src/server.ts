@@ -7,6 +7,7 @@ import * as Sentry from '@sentry/node';
 import { NextFunction, Request, Response } from 'express';
 import { importLocales } from './lib/model/db/import-locales';
 import { importTaxonomies } from './lib/model/db/import-taxonomies';
+import { migrateDemographics } from './lib/model/db/migrate-demographics';
 import Model from './lib/model';
 import {
   getFullClipLeaderboard,
@@ -285,6 +286,7 @@ export default class Server {
 
     try {
       await this.model.performMaintenance();
+      await migrateDemographics();
       await importLocales();
       if (doImport) {
         await importSentences(await this.model.db.mysql.createPool());
@@ -366,10 +368,7 @@ export default class Server {
     this.print('acquiring lock');
     const lock = await redlock.lock(
       'common-voice-maintenance-lock',
-      1000 *
-        60 *
-        60 *
-        6 /* keep lock for 6 hours */
+      1000 * 60 * 60 * 6 /* keep lock for 6 hours */
     );
     // we need to check again after the lock was acquired, as another instance
     // might've already migrated in the meantime
