@@ -100,7 +100,7 @@ export function trackProfile(
     | 'give-username'
     | 'give-accent'
     | 'give-age'
-    | 'give-gender'
+    | 'give-sex'
     | 'give-avatar'
     | 'contribution-conversion-modal',
   locale: string
