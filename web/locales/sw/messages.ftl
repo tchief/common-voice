@@ -277,27 +277,36 @@ download-profile = pakua data yangu
 skip-submission-feedback = Ruka marejesho ya uwasilishaji
 off = zima
 on = washa
+avatar-clip-title = Ipe sauti taswira yako ya mtumiaji
 change-your-avatar-clip = unataka kubadilisha kipande cha sauti yako?
 recording-in-progress = Kurekodiwa kwa sauti kunaendelea
+record-voice-wave = Rekodi mawimbi ya sauti
 retry-voice-wave-recording = jaribu tena
+re-record = Rekodi tena
 delete-voice = futa
 recording-voice-wave = Inarekodi
 delete-voice-clip = Au futa kipande cha sauti
 ready-to-upload = Pakia
+recreate-voice = Tengeneza upya mawimbi  ya sauti
 cancel-avatar-clip-recording = Ghairi
 file_too_large = Faili lililochaguliwa ni kubwa sana
 manage-subscriptions = Dhibitisha Usajili
 manage-email-subscriptions = Dhibitisha Usajili wa Baruapepe
+email-already-used = Baruapepe tayari inatumika kwa akaunti tofauti
 add-language = ongeza lugha
+change-email-setings = Badilisha baruapepe yako kupitia Mipangilio chini ya utambulisho wa kuingia
 
 ## FAQ
 
+faq-title = Maswali yanayoulizwa mara kwa mara
 faq-what-cv-q = common voice ni nini?
 faq-why-important-q = kwanini hii ni ya umuhimu?
 faq-how-get-q = Ninawezaje kupata data ya Common Voice?
+faq-when-release2-q = Ni lini data ya Common Voice itatolewa katika lugha zingine?
 faq-why-different-speakers-q = Kwa nini unahitaji wasemaji wengi tofauti kwa kila lugha?
 faq-why-my-lang-q = Kwa nini lugha yangu bado haijajumuishwa?
 faq-how-calc-hours-q = Common voice inahesabuje masaa?
+faq-why-account-q = Kwa nini nijisajili kupata akaunti?
 faq-what-is-cv = Common voice ni nini?
 faq-using-cv = kutumia common voice
 faq-description = Common Voice ni sehemu ya mpango wa Mozilla kusaidia kufundisha mashine jinsi watu wanavyozungumza
@@ -358,6 +367,8 @@ download-language = Pakua { $lugha }
 validated-hours = Masaa yaliyo halalishwa
 recorded-hours = masaa yaliyorekodiwa
 subscribe = Jiandikishe
+go-languages-page = Nenda kwenye kurasa za lugha
+ready-to-validate = Uko tayari kusaidia kuhalalisha sentensi?
 more = Zaidi
 close = Funga
 download = Pakua
@@ -415,10 +426,24 @@ shortcuts = Njia za mkato
 record-cta = anza kurekodi
 record-must-allow-microphone = Lazima uruhusu kinasa sauti kutumiwa
 record-no-mic-found = Hakuna kinasa sauti kilichopatikana
+record-error-too-short = Rekodi ilikua ya mda mfupi sana.
+record-error-too-long = Rekodi ilikua ya mda mrefu sana
+record-error-too-quiet = Rekodi ilikua ya kimya sana
+record-three-more-instruction = Tatu kumaliza!
+record-again-instruction = Vizuri!<recordIcon></recordIcon>Rekodi kipande kinachofata.
+record-last-instruction = <recordIcon></recordIcon> ya mwisho!
 clips-uploaded = Vipande vilivyo pakiwa
+record-abort-title = Maliza kurekodi kwanza?
+record-abort-submit = Tuma vipande
+record-button-label = Rekodi sauti yako
 
 ## Reporting
 
+report-different-language = Lugha tofauti
+report-different-language-detail = Imeandikwa kwa lugha ambayo ni tofauti na ninayoongea.
+report-difficult-pronounce = Vigumu kutamka
+report-other-comment =
+    .placeholder = Toa maoni
 continue = Endelea
 
 ## Goals
@@ -431,17 +456,33 @@ days =
 
 ## Dashboard
 
+your-languages = Lugha zako
 you = Wewe
 everyone = Kila mtu
 
 ## Custom Goals
 
+both-speak-and-listen = Zote mbili
+both-speak-and-listen-long = Zote mbili (kuongea na kusikiliza)
+daily-goal = Lengo la kila siku.
+weekly-goal = Lengo la kila wiki
 easy-difficulty = Rahisi
 average-difficulty = Wastani
 difficult-difficulty = Ngumu
+set-a-goal = Weka lengo
+how-many-per-day = Vizuri! Vipande vingapi vya sauti kwa siku?
+how-many-a-week = Vizuri! Vipande vingapi vya sauti kwa wiki?
+which-goal-type = Unataka kuongea, usikiliza au zote mbili?
+confirm-goal = Thibitisha lengo
+goal-interval-weekly = Kila wiki
+share-goal-type-speak = Kuongea
+share-goal-type-listen = Kusikiliza
+share-goal-type-both = Kuongea na kusikiliza
 
 ## Profile Delete
 
+keep = Hifadhi
+remove = Ondoa
 
 ## Landing
 

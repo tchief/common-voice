@@ -155,7 +155,7 @@ contact = Kontakt
 privacy = Privatliv
 terms = Vilkår
 cookies = Cookies
-faq = Ofte stillede spørgsmål
+faq = FAQ
 content-license-text = Indhold tilgængeligt under <licenseLink>Creative Commons-licens</licenseLink>
 share-title = Hjælp os med at finde andre, der kan bidrage med deres stemme!
 share-text = Hjælp med at lære maskiner, hvordan mennesker taler - bidrag med din stemme på { $link }
@@ -211,11 +211,13 @@ x-years-short =
 help-make-dataset = Hjælp os med at opbygge et offentligt og åbent datasæt af høj kvalitet.
 sign-up-account = Opret en konto
 email-subscription-title = Tilmeld dig nyheder via mail
+email-subscription-title-new = Tilmeld dig nyhedsbreve fra Common Voice, påmindelser om mål og opdateringer om fremskridt
 
 ## Account Benefits
 
 benefits = Fordele
 improve-audio = Informationerne på din profil forbedrer de lyddata, der bruges til træning af talegenkendelse.
+compare-progress = Se dine fremskridt sammenlignet med andre bidragsydere over hele verden.
 
 ## What's public
 
@@ -354,6 +356,7 @@ faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
 faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at et stemmeklip kan bruges i datasættet?
 faq-how-calc-hours-q = Hvordan bliver timerne udregnet af Common Voice?
 faq-how-calc-hours-a = Vi beregner timerne ved at estimere den gennemsnitlige længde af hver optagelse, og ganger det antal med det samlede antal optagelser på tværs af alle sprog.
+faq-where-src-from-2-q = Hvor kommer teksten fra?
 faq-why-not-ask-read-q = Hvorfor beder I ikke folk om at læse op fra bøger eller Wikipedia-artikler på forskellige sprog?
 faq-why-not-ask-read-a = For at gøre datasættet fra Common Voice så nyttigt som muligt, har vi besluttet kun at tillade tekst, der er tilgængeligt under en Creative Commons (CC0) licens. Brugen af CC0-standarden betyder, at det er sværere at finde og indsamle tekst, men tillader at alle kan bruge datasættet uden brugsbegrænsninger eller tilladelse fra Mozilla. I sidste ende ønsker vi at gøre det flersprogede datasæt så nyttigt som muligt for alle, herunder forskere, universiteter, iværksættere, regeringer, sociale formål og hobbyfolk.
 faq-why-account-q = Hvorfor skal jeg oprette en konto?
@@ -392,6 +395,8 @@ mycroft-description =
 
 glossary = Ordliste
 localization = Oversættelse
+hours-recorded-explanation = Antallet af stemmeoptagelser i timer, vi har samlet indtil videre.
+de-identified = Anonymiseret
 
 ## NotFound
 
@@ -432,6 +437,8 @@ review-delete-recordings = Slet mine optagelser
 language = Sprog
 # File size in gigabytes
 size = Størrelse
+validated-hr-total = Validerede timer i alt
+overall-hr-total = Samlede timer i alt
 cv-license = Licens
 audio-format = Lydformat
 number-of-voices = Antal stemmer
@@ -443,13 +450,17 @@ size-megabyte = MB
 download-language = Hent { $language }
 validated-hours = Validerede timer
 recorded-hours = Indspillede timer
+want-dataset-update = Vil du opdateres, når vi frigiver en ny version af datasættet fra Common Voice? Abonnér på vores nyhedsbrev.
 subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
+feedback-q = Har du feedback?
+common-voice-info-new = Har du spørgsmål om Common Voice? Ideer til forbedringer eller feedback om et specifikt sprog? Deltag i vores <discourseLink>Discourse-forum</discourseLink> og fortæl os det.
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
 data-other-voxforge-description = VoxForge blev startet for at indsamle transskriberet tale til brug for frie og open source talegenkendelses-systemer.
 data-other-tatoeba-description = Tatoeba er en stor database af sætninger, oversættelser og indtalt lyd til brug for sprogindlæring. Denne filhentning indeholder indtalt engelsk optaget af fællesskabet bag Tatoeba.
+your-feedback = Har du ideer til, hvordan vi kan forbedre datasættet fra Common Voice? Fortæl os det på Discourse
 go-discourse = Gå til Discourse
 go-languages-page = Gå til sprogsiden
 more = Mere

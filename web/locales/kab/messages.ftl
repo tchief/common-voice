@@ -1,7 +1,7 @@
 ## General
 
-yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. Bɣiɣ ad yi-d-ttawḍen yisallen ɣef usenfaṛ n Commen Voice.
-stayintouch = Nekkni deg Mozilla, nbennu tarbaɛt itezzin ɣef tetiknulujit n taɣect. Nebɣa ad neqqim akked umaynut d yileqman, iɣbula n yisefka imaynuten daɣen ad nsel ugar ɣef wamek ara ttwasqedcen isefka-agi.
+yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. Bɣiɣ ad yi-d-ttawḍen yisallen ɣef usenfar n Commen Voice.
+stayintouch = Nekkni deg Mozilla, nbennu tarbaɛt i itezzin ɣef tetiknulujit n taɣect. Nebɣa ad neqqim akked umaynut d yileqman, iɣbula n yisefka imaynuten daɣen ad nsell ugar ɣef wamek ara ttwasqedcen isefka-agi.
 privacy-info = Ad neḍmen aḥraz n talɣut-nwen. Ɣer ugar n yisallen deg <privacyLink>tsertit-nneɣ tabaḍnit</privacyLink>.
 return-to-cv = Uɣal ɣer Common Voice
 email-input =
@@ -500,6 +500,8 @@ data-bundle-button = Sider-d aqettun n tagrumma n yisefka
 data-bundle-description = Isefka Common Voice akked tigrummiwin meṛṛa n yisefka-nniḍen ddaw-a.
 license = Turagt: <licenseLink>{ $license }</licenseLink>
 license-mixed = Uxliḍ
+data-download-singleword-title = Sider aḥric iswi Single Word
+data-download-singleword-callout = Wagi d aḥric i nettnadi ɣef kra n useqdec i igebren isefka i usečči n uɛqal n taɣect s yizwilen yettwanṭaqen, aɛqal n ih/uhu akked isefka n usekyed n wawalen n usaki i <fxLink>Firefox Voice</fxLink>.
 review-terms = S useqdec n Common Voice, ad tqebleḍ tiwtilin-nneγ <termsLink> akked <privacyLink>tasertit-nneγ n tbaḍnit </privacyLink>
 terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara
@@ -666,7 +668,7 @@ record-button-label = Sekles taɣect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
 keep-track-profile = rnu amaɣnu akken ad twaliḍ ayen txedmed
 login-to-get-started = Kcem neɣ jerred akken ad tebduḍ
-target-segment-first-card = Tettekkaḍ deg taggayt-nneɣ tasaḍast amezwaru
+target-segment-first-card = Tettekkaḍ deg taggayt-nneɣ tasaḍast tamezwarut
 target-segment-first-banner = Mudd tallalt i tmerna n taggayt tasaḍast tamezwarut n Common Voice deg { $locale }
 target-segment-add-voice = Rnu taɣect-ik.m
 target-segment-learn-more = Issin ugar
