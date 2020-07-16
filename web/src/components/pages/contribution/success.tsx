@@ -13,6 +13,7 @@ import { LocaleLink, useLocale } from '../../locale-helpers';
 import { CheckIcon, MicIcon, PlayOutlineIcon } from '../../ui/icons';
 import { Button, LinkButton, TextButton } from '../../ui/ui';
 import { SET_COUNT } from './contribution';
+import { getTrackClass } from '../../../services/tracker';
 
 import './success.css';
 
@@ -122,16 +123,16 @@ function Success({
         <CheckIcon />
         <Localized
           id="clips-with-count"
-          elems={{bold: <b/>}}
-          vars={{count: SET_COUNT + '/' + SET_COUNT}}>
+          elems={{ bold: <b /> }}
+          vars={{ count: SET_COUNT + '/' + SET_COUNT }}>
           <span className="text" />
         </Localized>
       </div>
 
       <Localized
         id={type === 'speak' ? 'goal-help-recording' : 'goal-help-validation'}
-        elems={{goalPercentage}}
-        vars={{goalValue}}>
+        elems={{ goalPercentage }}
+        vars={{ goalValue }}>
         <h1 />
       </Localized>
 
@@ -149,7 +150,7 @@ function Success({
           <div className="info-card">
             <Localized
               id="help-reach-hours"
-              vars={{hours: 10000, language: getString(locale)}}>
+              vars={{ hours: 10000, language: getString(locale) }}>
               <p />
             </Localized>
             <Localized id="get-started-goals">
@@ -163,14 +164,18 @@ function Success({
             <p />
           </Localized>
           <Localized id="login-signup">
-            <LinkButton rounded href="/login" />
+            <LinkButton
+              rounded
+              href="/login"
+              className={getTrackClass('fs', `nudge-profile-on-succcess`)}
+            />
           </Localized>
         </div>
       )}
 
       <ContributeMoreButton>
         {type === 'speak' ? <MicIcon /> : <PlayOutlineIcon />}
-        <Localized id="contribute-more" vars={{count: SET_COUNT}}>
+        <Localized id="contribute-more" vars={{ count: SET_COUNT }}>
           <span />
         </Localized>
       </ContributeMoreButton>

@@ -11,7 +11,7 @@ loading = Cargament…
 email-opt-in-info = M’agradariá de recebre de messatges electronics coma de recòrds, ma progression e d’infoletras tocant Common Voice.
 email-opt-in-info-title = Rejonhètz l'infoletra Common Voice
 email-opt-in-info-sub-with-challenge = Recebètz de corrièls coma de desfisses e recòrds d’objectius, rapòrts d’avançament e infoletras tocant Common Voice.
-email-opt-in-privacy = En acceptar de recebre los corrièls, indicatz acceptar que Mozilla gerisca aquestas informacions segon la <privacyLink>politica de confidencialitat<privacyLink> de Mozilla.
+email-opt-in-privacy-v2 = En acceptar de recebre los corrièls, indicatz acceptar que Mozilla gerisca aquestas informacions segon la <privacyLink>politica de confidencialitat</privacyLink> de Mozilla.
 indicates-required = * indica un camp obligatòri
 not-available-abbreviation = Non disponible
 
@@ -507,6 +507,7 @@ data-bundle-button = Telecargar lo paquet del jòc de donadas
 data-bundle-description = Donadas de Common Voice e totes los jòcs de donadas çai-jos.
 license = Licéncia : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
+data-download-singleword-title = Telecargar lo segment cibla de mot unic
 review-terms = En utilizar Common Voice, acceptatz las <termsLink>Conditions d’utilizacion<privacyLink>Politica de confidencialitat</privacyLink>
 terms-agree = Accepti
 terms-disagree = Accepti pas
